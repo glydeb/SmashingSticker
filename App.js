@@ -37,7 +37,7 @@ export default function App() {
         <Button theme="primary" label="Choose a Photo" onPress={pickImageAsync} />
         <Button label="Use this Photo" />
       </View>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
     </View>
   );
 }
